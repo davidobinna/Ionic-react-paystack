@@ -1,0 +1,72 @@
+@import "@ionic/react/css/core.css";
+
+/* Basic CSS for apps built with Ionic */
+@import "@ionic/react/css/normalize.css";
+@import "@ionic/react/css/structure.css";
+@import "@ionic/react/css/typography.css";
+
+/* Optional CSS utils that can be commented out */
+@import "@ionic/react/css/padding.css";
+@import "@ionic/react/css/float-elements.css";
+@import "@ionic/react/css/text-alignment.css";
+@import "@ionic/react/css/text-transformation.css";
+@import "@ionic/react/css/flex-utils.css";
+@import "@ionic/react/css/display.css";
+
+
+
+
+
+
+
+:root {
+    --primary: #009d06;
+    // --primary: #32b141;
+    --secondary: #7ac81e;
+    --bg-color: #ffffff;
+    --bg-white: #ffffff;
+    --transparent: rgba(0, 0, 0, 0);
+    --text-light: #979ca7;
+    --text-light2: #c1c1c1;
+    --text-dark: #2b2c30;
+    --text-dark2: #5d5d5d;
+    --text-white: #fff;
+    --text-black: #000;
+    --item-bg: #f5f7f9;
+    --border-line-color: #d7d7d7;
+    --yelow-color: #ffba34;
+    --tab-background: #fffffe;
+}
+
+.bg_color {
+    --background: var(--bg-color);
+}
+
+.bg_white {
+    --background: var(--bg-white);
+}
+
+
+/* ion-tab-bar {
+
+	--background: var(--tab-background);
+	box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.4);
+	border-radius: 20px !important;
+
+	height: 40px;
+	width: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+	bottom: 20px;
+	position: relative;
+	margin: 0 auto !important;
+	border-top: none;
+} */
+
+ion-page {
+    background: var(--bg-white);
+}  
+
