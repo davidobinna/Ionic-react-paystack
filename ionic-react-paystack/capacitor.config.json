@@ -1,0 +1,14 @@
+{
+  "appId": "com.ionicpaystack.com",
+  "appName": "ionic-paystack",
+  "webDir": "build",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "hostname" : "127.0.0.1",
+    "cleartext":true,
+    "allowNavigation":["*"]
+  }
+}
+
+
