@@ -4,13 +4,12 @@ import ReactDOM from 'react-dom/client'
 //import './index.css'
 import './global.scss';
 import { IonApp } from '@ionic/react';
-import './theme/variables.scss';
-import { Router } from './router/Router.jsx';
+import './theme/variable.scss';
+import { MyRouter } from './router/Router.jsx';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-
    <IonApp>
-        <Router />
+        <MyRouter />
    </IonApp>
 
 )
