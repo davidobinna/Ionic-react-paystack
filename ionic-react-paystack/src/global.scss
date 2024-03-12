@@ -38,6 +38,12 @@
     --tab-background: #fffffe;
 }
 
+/* Hide scrollbar by setting overflow to hidden */
+ion-content {
+    --overflow: hidden;
+}
+
+
 .bg_color {
     --background: var(--bg-color);
 }

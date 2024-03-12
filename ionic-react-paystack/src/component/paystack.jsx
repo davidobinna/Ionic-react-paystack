@@ -10,7 +10,7 @@ export const Paystack = ({ userEmail, userName, amount, onSuccess, onCancel, onC
     const paystack = new PaystackPop();
 
     paystack.newTransaction({
-      key: 'c36686f9f7dbdac054603',
+      key: 'Your_Public_Key',
       email: userEmail,
       amount: amount * 100, // Convert amount to kobo (100 kobo = 1 naira)
       description: 'Payment for goods', // Add your description here
